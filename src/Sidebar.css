@@ -1,0 +1,37 @@
+.sidebar {
+    position: fixed;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Position on the left side */
+    height: calc(100vh - 40px); /* Adjust height to fill viewport */
+    width: 120px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000; /* Ensure sidebar is above other content */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar button:hover {
+    background-color: #0056b3;
+  }
+  
