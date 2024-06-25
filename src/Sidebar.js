@@ -1,30 +1,19 @@
+// Sidebar.js
+
 import React from 'react';
-import './Sidebar.css'; 
+import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 
-function Sidebar() {
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    };
-
-    const scrollToProjects = () => {
-        const projectsSection = document.getElementById('projects-section');
-        if (projectsSection) {
-            projectsSection.scrollIntoView({ behavior: "smooth" });
-        }
-    };
-
+const CustomSidebar = () => {
     return (
-        <div className="sidebar">
-            <ul>
-                <li><button onClick={scrollToTop}>Home</button></li>
-                <li><button onClick={scrollToProjects}>Projects</button></li>
-                {/* Add more buttons for other sections if needed */}
-            </ul>
-        </div>
+      <Sidebar>
+        <Menu>
+          <SubMenu label="Charts">
+            <MenuItem> Pie charts </MenuItem>
+            <MenuItem> Line charts </MenuItem>
+          </SubMenu>
+        </Menu>
+      </Sidebar>
     );
-}
+  };
 
-export default Sidebar;
+export default CustomSidebar;
