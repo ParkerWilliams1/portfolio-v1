@@ -1,19 +1,16 @@
-// Sidebar.js
+import './Sidebar.css'
 
-import React from 'react';
-import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-
-const CustomSidebar = () => {
+function Sidebar() {
     return (
-      <Sidebar>
-        <Menu>
-          <SubMenu label="Charts">
-            <MenuItem> Pie charts </MenuItem>
-            <MenuItem> Line charts </MenuItem>
-          </SubMenu>
-        </Menu>
-      </Sidebar>
+        <div id="sidebar">
+            <ul>
+                <li>Home</li>
+                <li>About Me</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </div>
     );
-  };
+}
 
-export default CustomSidebar;
+export default Sidebar;
