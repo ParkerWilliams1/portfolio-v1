@@ -6,7 +6,7 @@ function AboutMe() {
       <div className="container">
         <div className="text-content">
           <h1>Hi There, My name is Parker Williams</h1>
-          <p>I am studying Computer Science & Statistics at California Baptist University</p>
+          <p>I am studying Computer Science & Applied Statistics at California Baptist University</p>
 
           <a href="/ParkerWilliams_Resume.pdf" target="_blank" rel="noopener noreferrer">
               <button>Resumé</button>
