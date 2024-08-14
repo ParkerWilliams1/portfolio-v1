@@ -1,25 +1,24 @@
 import React from 'react';
-import AboutMe from './AboutMe';
-import Projects from './Projects';
-import Sidebar from './Sidebar'
-import './AboutMe.css';
-import './Projects.css';
+import NavBar from './NavBar';
+import Home from './Home';
+import About from './About';
+import Skills from './Skills';
+// import Projects from './Projects';
+import Contact from './Contact';
 
 function App() {
-    return (
-        <div>
-          <div id="about-me-section">
-            <AboutMe />
-          </div>
-          <div id="projects-section">
-            <Projects />
-          </div>
-          <div id="sidebar">
-            <Sidebar />
-          </div>
-        </div>
-    );
-  }
+  return (
+    <div className="App">
+      <NavBar />
+      <main>
+        <Home />
+        <About />
+        <Skills />
+        {/* <Projects /> */}
+        <Contact />
+      </main>
+    </div>
+  );
+}
 
-  
-  export default App;
+export default App;
