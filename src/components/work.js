@@ -1,8 +1,10 @@
 import React from 'react';
+import '../styles/work.css';
 
 const Work = () => {
   return(
     <div id="work-wrapper">
+    <h1 className="work-header">Work Experience</h1>
       <div className="job-wrapper">
        <h2 className="job-title">Student Researcher</h2>
        <h3 className="job-company">California Baptist University</h3>

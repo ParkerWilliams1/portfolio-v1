@@ -1,8 +1,9 @@
 import React from 'react';
-import Header from './components/header.js'
-import Projects from './components/projects.js'
-import Work from './components/work.js'
-import Navbar from './components/navbar.js'
+import Header from './components/header.js';
+import Projects from './components/projects.js';
+import Work from './components/work.js';
+import Navbar from './components/navbar.js';
+import './styles/main.css';
 
 function App() {
   return (

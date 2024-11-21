@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/projects.css';
 
 const Projects = () => {
   return (
     <div id="projects-wrapper">
     <h1 className="projects-header">Projects</h1>
-      <div>
+      <div className="project-wrap">
         <h2 className="project-name">Better Blackboard Learn</h2>
         <p className="project-tech">JavaScript, HTML, CSS</p>
         <a className="product-url" href="https://chromewebstore.google.com/detail/better-blackboard-learn/ngmpmjpigceaccddpkoeejmakahopopa" target="_blank"><button>Product</button></a>

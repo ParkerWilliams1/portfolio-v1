@@ -1,0 +1,40 @@
+
+#projects-wrapper {
+  position: absolute;
+  top: 120%;
+  left: 3%;
+}
+
+.projects-header {
+  font-size: 40px;
+}
+
+.project-wrap {
+}
+
+.project-name {
+  color: red;
+  font-size: 28px;
+}
+
+.project-tech {
+  font-size: 16px;
+  position: relative;
+  bottom: 18px;
+}
+
+.product-url {
+  position: absolute;
+  top: 36%;
+  left: 28%;
+}
+
+.product-url button {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 120%;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 3px;
+}
