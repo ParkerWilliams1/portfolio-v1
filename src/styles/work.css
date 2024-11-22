@@ -1,10 +1,28 @@
 
 #work-wrapper {
  position: absolute;
- top: 220%;
- left: 3%;
+ top: 14%;
 }
 
-.work-header {
-  font-size: 40px;
+.job-wrapper {
+  margin-bottom: 3%;
+}
+
+.job-title {
+  font-size: 26px;
+  color: orange;
+}
+
+.job-company {  
+  position: relative;
+  bottom: 20px;
+  font-size: 14px;
+  color: #bd09e6;
+}
+
+.job-description {
+  position: relative;
+  bottom: 28px;
+  right: 10px;
+  width: 80%;
 }

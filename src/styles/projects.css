@@ -1,40 +1,49 @@
 
 #projects-wrapper {
   position: absolute;
-  top: 120%;
-  left: 3%;
+  left: 10%;
+  top: 12%;
 }
 
 .projects-header {
   font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: orange;
 }
 
 .project-wrap {
 }
 
 .project-name {
-  color: red;
+  color: #bd09e6;
   font-size: 28px;
 }
 
 .project-tech {
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
-  bottom: 18px;
+  bottom: 22px;
 }
 
 .product-url {
   position: absolute;
-  top: 36%;
+  top: 38%;
   left: 28%;
 }
 
 .product-url button {
-  background-color: red;
+  background-color: #bd09e6;
   color: white;
-  border: none;
   width: 120%;
   height: 25px;
-  border: 2px solid white;
   border-radius: 3px;
+  border: none;
 }
+
+.project-description {
+  font-size: 16px;
+  margin: 0;
+  padding: 5px;
+  width: 50%;
+}
+

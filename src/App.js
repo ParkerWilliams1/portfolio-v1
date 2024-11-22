@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/header.js';
 import Projects from './components/projects.js';
 import Work from './components/work.js';
@@ -7,12 +8,17 @@ import './styles/main.css';
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Header />
-      <Projects />
-      <Work />
       <Navbar />
+
+      <Routes>
+          <Route path="/" element={<Header />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/work" element={<Work />} />
+      </Routes>
     </div>
+    </Router>
   );
 }
 
