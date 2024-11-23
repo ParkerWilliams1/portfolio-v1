@@ -1,22 +1,12 @@
-
 #projects-wrapper {
   position: absolute;
-  left: 10%;
-  top: 12%;
-}
-
-.projects-header {
-  font-size: 40px;
-  text-decoration: underline;
-  text-decoration-color: orange;
-}
-
-.project-wrap {
+  left: 4%;
+  top: 18%;
 }
 
 .project-name {
   color: #bd09e6;
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .project-tech {
@@ -26,18 +16,10 @@
 }
 
 .product-url {
-  position: absolute;
-  top: 38%;
-  left: 28%;
+  display: none;
 }
 
 .product-url button {
-  background-color: #bd09e6;
-  color: white;
-  width: 120%;
-  height: 25px;
-  border-radius: 3px;
-  border: none;
 }
 
 .project-description {
@@ -45,5 +27,9 @@
   margin: 0;
   padding: 5px;
   width: 50%;
+  position: relative;
+  bottom: 40px;
+  right: 20px;
 }
+
 

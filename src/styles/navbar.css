@@ -80,5 +80,6 @@
 
 .navbar-buttons li a.active {
   text-decoration: underline; 
+  margin: 0;
   text-decoration-color: #bd09e6; 
 }

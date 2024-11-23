@@ -1,10 +1,26 @@
 
+
 #work-wrapper {
  position: absolute;
  top: 14%;
+ left: 4%;
+}
+
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Start below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End in place */
+  }
 }
 
 .job-wrapper {
+  opacity: 0; /* Initially hidden */
+  animation: fadeInSlideUp 1.5s ease-out forwards; /* Apply animation */
+  animation-delay: var(--delay, 0s); /* Delay for staggered effect */
   margin-bottom: 3%;
 }
 

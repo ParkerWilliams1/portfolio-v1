@@ -4,7 +4,6 @@ import '../styles/projects.css';
 const Projects = () => {
   return (
     <div id="projects-wrapper">
-    <h1 className="projects-header">Projects</h1>
       <div className="project-wrap">
         <h2 className="project-name">Better Blackboard Learn</h2>
         <p className="project-tech">JavaScript, HTML, CSS</p>
@@ -16,6 +15,12 @@ Names, and Themes for Blackboard Learn. Compatible with <strong>100+</strong> Un
           <li>Achieved <strong>1,000+</strong> Active Users and numerous 5 Stars Reviews.</li>
         </ul>
       </div>
+    </div>
+      <div className="video-container">
+      <video  width="500" height="281" loop autoPlay muted>
+        <source src={`${process.env.PUBLIC_URL}/BetterBlackboardLearnDemo.mp4`} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
     </div>
   );

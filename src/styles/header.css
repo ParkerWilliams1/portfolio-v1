@@ -1,13 +1,4 @@
 
-.profile-image {
-  position: absolute; 
-  border-radius: 50%;
-  width: 400px;
-  left: 10%;
-  top: 28%;
-  border: 5px solid white;
-}
-
 @keyframes fadeInSlideUp {
   from {
     opacity: 0;
@@ -26,6 +17,7 @@
   top: 34%;
   opacity: 0;
   animation: fadeInSlideUp 1.7s ease-out forwards;
+  font-weight: 300;
 }
 
 .header-name {
@@ -96,3 +88,26 @@
   color: #bd09e6;
 }
 
+.profile-image {
+  position: absolute;
+  border-radius: 50%;
+  width: 400px;
+  left: 10%;
+  top: 28%;
+  z-index: 2;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.profile-image::before {
+  content: '';
+  position: absolute;
+  top: -20px; 
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: linear-gradient(135deg, #bd09e6, #ff6f61, #f7b7b7);
+  border-radius: 50%;
+  z-index: -1; 
+  transform: scale(1.2); 
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);  
+}
