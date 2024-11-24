@@ -38,7 +38,7 @@ const Navbar = () => {
             className={activeButton === '/work' ? 'active' : ''}
             onClick={() => handleClick('/work')}
           >
-            Work
+            Experience
           </Link>
         </li>
       </ul>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/projects.css';
+import bbld from '../../public/BetterBlackboardLearnDemo.mp4';
 
 const Projects = () => {
   return (
@@ -18,7 +19,7 @@ Names, and Themes for Blackboard Learn. Compatible with <strong>100+</strong> Un
     </div>
       <div className="video-container">
       <video  width="500" height="281" loop autoPlay muted>
-        <source src={`${process.env.PUBLIC_URL}/BetterBlackboardLearnDemo.mp4`} type="video/mp4" />
+        <source src={bbld} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
